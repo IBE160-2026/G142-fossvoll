@@ -1,102 +1,115 @@
 ---
-title: "Product Brief: Your Gym"
+title: "Product Brief: RepRoute"
 status: final
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-11-20
 ---
 
-# Product Brief: Your Gym
+# Product Brief: RepRoute
+
+*Working name RepRoute, formerly "Your Gym". Whether the name is free in the app stores and as a trademark has not been checked.*
 
 ## Executive Summary
 
-Your Gym is a white-label app that a gym licenses and offers to its own members. Members open it and see their own gym from above, drawn like a game map, with their avatar standing on the floor. They walk the avatar to a machine and see which exercises it supports. A short AI guide shows how to do each exercise correctly. Members log sets, reps and how the session felt, and over time they can see their progress.
+RepRoute turns a gym workout into a short game level. Each workout is a room seen from above, with the machines placed in the order you'll use them and a finish line at the far end. Your avatar walks from machine to machine. At each machine you see an animation of how to do the exercise correctly, and you log your sets, reps and weight. Crossing the finish line ends the session with feedback, XP and a stronger avatar.
 
-The gym sells Your Gym to its members as a paid **"Plus" membership**: an affordable digital personal trainer (PT) for members who would never pay for a human one. That gives the gym a new source of recurring revenue, a reason for beginners to stick with training, and an app that carries the gym's name. As a smaller benefit, the gym also learns which machines its app users actually use.
+The avatar is cozy, round and lovable, and it's yours to look after. Its mood follows your own weekly goal: when you reach it, the avatar is happy, and when you miss it, the avatar gets a little sad. The idea is the same as Duolingo's owl: a reason to come back that feels good rather than like homework.
 
-Gym software already exists, and so do workout trackers. What's missing is a product built around **this specific gym**: its real floor plan, its real machines, and guidance on how to use each one. Your Gym fills that gap, and the founder builds each gym's map so the gym has no setup work.
+RepRoute is for **beginners and people who have never used a workout tracker**. It doesn't try to win over experienced Hevy or Strong users. It works in any gym, because the room is built from the workout, not from a floor plan. Users can tick off the machines their gym has, so the AI builds workouts they can actually do. Logging is free. A single Premium package adds AI-built workouts and cosmetics for the avatar and the room.
+
+The product doesn't reinvent the workout tracker. It takes a category people already use and pay for, and gives it a friendlier, more playful form.
 
 ## The Problem
 
-**For members, especially beginners**
-- A gym full of unfamiliar machines is intimidating. Beginners don't know what to do, which exercises fit which machine, or whether they're doing them right.
-- A personal trainer solves this, but at an estimated 600–1,000 NOK per session it's out of reach for most members.
-- Generic tracking apps (Hevy, Strong, Fitbod) don't know which gym you're in or what equipment it has. They also feel like spreadsheets, so many people stop logging after a few weeks.
-
-**For gyms**
-- Selling a membership is the easy part. The hard part is getting new members to build a habit before they quit. Industry benchmarks put average annual member retention at around 66%.
-- Most independent and mid-size gyms have no app of their own, or only a booking app. They have little to offer members between the front desk and an expensive PT.
-- The chains that do have strong apps (EGYM-powered EVO, SATS) set expectations that smaller gyms struggle to meet.
+- **Beginners don't know where to start.** A gym full of unfamiliar machines is intimidating. In the Nordics, 29% of gym-goers name lack of motivation as a barrier, and in the Danish data 17% say they don't know where to start (SATS, 2025).
+- **Personal trainers are expensive.** At an estimated 600–1,000 NOK per session, most beginners won't pay for one.
+- **Most people don't track at all.** Only about 28% of frequent gym-goers track in an app, and about 40% track nothing (YouGov, 2022). Without a record, people can't see their progress, and progress is what keeps people training.
+- **Existing trackers are tools, not companions.** Hevy, Strong and Fitbod are good logbooks, but they feel like spreadsheets. Nothing in them makes you *want* to open the app, and fitness apps keep only about 3–4% of users after 30 days.
 
 ## The Solution
 
-- **Your gym, as a game map.** A bird's-eye, game-like view of the gym's actual layout and equipment. The member's avatar moves from machine to machine, and planning a workout feels like planning a route.
-- **Exercises per machine.** Selecting a machine lists the exercises it supports, filtered by level and goal.
-- **An AI how-to on correct form.** A quick guide on how to perform each exercise safely, with the key cues, common mistakes and the muscles worked. This is text and visual guidance only. It does not use the camera or check form live.
-- **Plan, log and see progress.** Build a session in advance or improvise one on the spot. Log sets and reps quickly between sets, and add how the session felt (energy, difficulty, mood). Progress views show improvement over time.
-- **Branded for the gym.** The app carries the gym's own name and colors and is sold to members as the gym's Plus tier.
-- **Usage insight for staff (a bonus).** An aggregated view of which machines app users train on. It covers app users only, so it's a helpful extra rather than a full analytics product.
-- **Works everywhere.** Mobile in the gym, iPad on the gym floor or at the front desk, and desktop for planning at home.
+**How a user goes through it:**
+1. **Sign in and create an avatar.**
+2. **Set a goal.** The AI asks a few questions about your gym experience and suggests a realistic weekly goal, for example 2–3 workouts. It raises the goal as you keep it.
+3. **Tell RepRoute what your gym has.** This step is optional: tick off the machines available at your gym.
+4. **Build a workout.** Make it yourself, or let the AI build it from your goal and your equipment. For each exercise you choose which machine to use.
+5. **Play the workout.** The workout becomes a room with machines in order and a finish line at the end. Your avatar walks from machine to machine. At each machine you watch the how-to animation and log your sets, reps and weight in a few taps.
+6. **Cross the finish line.** You record how the session felt, get feedback, earn XP and see your avatar grow stronger.
+7. **Watch your progress.** The progress view shows your history, the weights you lift and your level.
+
+**The avatar and how it rewards you:**
+- **Design:** cozy, round and lovable, with its own original look.
+- **After a workout:** it visibly gets stronger, then always returns to its normal shape. Its body never changes as a punishment.
+- **Mood:** it follows the user's own weekly goal. With a goal of 3 workouts, it only gets sad if fewer than 3 are logged that week. Rest days within the goal never count as failure.
+- **Progression:** XP and levels are free and show how far you've come.
 
 ## What Makes This Different
 
-- **Built around one specific gym.** Competing apps either know nothing about the gym (Hevy, Fitbod) or focus on booking and billing (PushPress, the 3T app, BRP-based apps). Desk research found no product that combines a game-style map of the member's own gym with exercise guidance per machine and workout logging.
-- **Fun as the main design choice.** The map and avatar are meant to make the gym feel familiar and make logging something members enjoy, not a chore.
-- **A revenue line, not just a cost.** The gym resells the app as a Plus membership, so the license can pay for itself.
-- **Done-for-you setup.** The founder maps each gym, so the gym doesn't need to do any technical work.
-- **Honest about the competition.** EGYM already offers AI workouts based on a gym's equipment, so Your Gym won't win on AI depth. It competes on experience, price and fit for gyms that aren't on EGYM, Technogym or an in-house app.
+- **The workout is a room you walk through.** No tracker found lays out a single session as a space the avatar moves through. Gamified apps (HeroFit, GymLevels, Liftoff) use XP, avatars or rankings, but no spatial layout.
+- **An avatar to look after between workouts.** Other apps have avatars that react to training, so this alone isn't new. Combined with the room, it gives RepRoute a reason to come back that feels good, as Duolingo's owl does.
+- **Built for people who have never tracked.** Every design choice favors beginners: guidance, animations, realistic goals and kind feedback.
+- **Works in any gym.** No floor plans and no setup per gym.
+- **Honest about what's new.** The idea of a workout tracker isn't new. What's new is how it feels to use: a friendly, playful version of something people already pay for.
 
 ## Who This Serves
 
-- **The buyer: gym owners and managers** at independent gyms and small to mid-size chains. They want new revenue, better retention and a modern brand without building their own app. For them, success means Plus sign-ups covering the license, and members staying longer.
-- **Primary user: beginners and returning members.** They feel insecure in the gym and can't afford or don't want a PT. For them, success means walking in with a plan, knowing how to use the machines, and seeing that they're improving.
-- **Secondary user: regular gym-goers** who want a more enjoyable logbook tied to their own gym.
-- **Gym staff** get a light view of machine usage and a tool they can recommend to new members.
+- **Primary: beginners.** New or returning gym-goers who feel unsure, don't know what to do, and can't afford or don't want a personal trainer. Success for them: they walk in with a plan, know how to do each exercise, and are still training after the first few months. When needs conflict, this group decides.
+- **Secondary: people who have never used a tracker.** Regular gym-goers who don't log because existing apps feel dull. They want a more fun way to keep track of sets and reps.
+- **Not targeted:** experienced lifters who are happy with Hevy or Strong.
 
 ## Business Model
 
-- **Gym pays:** a monthly license per location of about 800–2,500 NOK (estimate), in line with branded-app competitors at roughly $80–250 per month. On top of that comes a one-off fee for building the map.
-- **Member pays the gym:** the gym sets its own Plus price, for example +99–149 NOK per month, and keeps that revenue.
-- **The pitch in one line:** "Somewhere between 6 and 25 Plus members cover your license, depending on price. Everyone after that is profit, and beginners stay longer." (Estimate based on the prices above.)
+- **Sold directly to users (B2C) on a freemium model.**
+  - **Free:** logging, the room, the avatar, XP and levels, and the progress view.
+  - **Premium (one package):** AI-built workouts, plus cosmetics such as clothes for the avatar and new room designs.
+- **Premium price:** set between Hevy (about 275 kr/year) and Fitbod (about 879–1,190 kr/year), using Norwegian App Store prices.
+- **The numbers to respect:** only about 3–4% of people who download a fitness app end up paying. Paid ads cost more than an average user brings in, so growth must come from organic downloads and word of mouth.
+- **Possible later expansion:** selling to gyms so they can build a community around RepRoute. This is not part of the first version.
 
 ## Success Criteria
 
-For a pilot gym (there is no pilot gym yet, so these are targets to aim for):
-- At least 10% of members sign up for Plus within the first 3 months.
-- At least 40% of Plus users are still logging workouts after 8 weeks.
-- Plus members renew their membership at a higher rate than non-Plus members.
-- The gym's Plus revenue covers the license within 3 months.
-- A new gym can be fully mapped and launched within 1–2 weeks.
+**For the school project:** a working mobile-first prototype that takes one user through the whole journey: sign in, create an avatar, set a goal, list equipment, build a workout (manually or with the AI), walk the room, log sets, cross the finish line, get feedback and XP, and see the avatar's mood and progress.
 
-For the school project: a working prototype with one sample gym that shows the map, avatar, per-machine exercises, AI how-to, logging and a progress view, across mobile, iPad and desktop.
+**For a real launch** (targets, not yet measured):
+- The share of users still logging after 30 days is well above the category's 3–4%.
+- Most users keep their weekly goal in most weeks.
+- Logging a set takes a few seconds and never waits for the game.
+- A share of free users upgrade to Premium. The category median for download-to-paid is about 3%.
 
 ## Scope
 
-**In for version 1**
-- A map of one gym's floor plan with machines, plus avatar movement.
-- An exercise library for each machine, with an AI how-to.
-- Workout planning, logging of sets, reps and weight, and session feeling.
-- Progress views and history.
-- Basic gym branding.
-- A simple staff view of machine usage.
-- A responsive web app that works on mobile, iPad and desktop, web first rather than native apps.
+**In the school prototype**
+- Sign in, and create an avatar.
+- A goal set with the AI's help (workouts per week).
+- An equipment checklist.
+- Building workouts manually or with the AI, choosing a machine per exercise.
+- The room view: machines in workout order, a walking avatar and a finish line.
+- A how-to animation for each exercise, covering 5–10 exercises (enough for one or two workouts).
+- Logging of sets, reps and weight.
+- Feedback after each session.
+- XP and levels.
+- Avatar mood based on the weekly goal.
+- The progress view.
+- Premium shown only as a mock-up add-on.
+- A responsive web app designed mobile-first.
 
-**Out of version 1**
+**Out of the school prototype**
+- Real Premium payment and cosmetics.
+- Publishing and sharing workouts, as Strava and Hevy do.
+- Selling to gyms and gym communities.
 - Camera-based form checking.
-- Connected equipment or sensor integration.
-- Booking, billing and membership management, which the gym's existing system handles.
-- Social features and challenges.
 - Native app-store apps.
-- Integration with EGYM, BRP and similar systems.
-- Self-service map editing for gyms.
+- Connected equipment or sensors.
 
 ## Risks and Open Questions
 
-- **The PT claim.** If the app is marketed as a PT replacement, the gym takes on liability when someone gets injured following its advice. The wording should be "guidance", and the app needs clear disclaimers and content that has been checked.
-- **AI accuracy.** Exercise instructions must be correct and consistent. One approach is to have AI-generated content reviewed once and then stored, rather than generated freshly for each member.
-- **Map setup doesn't scale.** Building every gym's map by hand works for the first gyms but limits growth. Gyms also rearrange their equipment, so maps need updating.
-- **Logging has to be fast.** Members log between sets, so the game feel can't get in the way of quick input.
-- **Will members pay for Plus?** This is the biggest unknown. Testing it with real members should be the first step.
+- **The animations are a lot of work.** An animation for every exercise is the most expensive content in the product. The prototype is limited to 5–10 exercises, enough for one or two workouts. The leading option is simple 2D animations made with Claude Code, in which the avatar itself performs the exercise. That keeps the style consistent and avoids license problems. Each animation's form must be checked against a trusted source. Free libraries such as wger (CC-BY-SA, attribution required per exercise) and free-exercise-db (Unlicense, but the license of the photos is unclear) can serve as references. Most free GIF datasets license their media separately, so check the license before using any of them.
+- **Advice on form carries liability.** The how-to content has to be correct. The app needs clear disclaimers and content that has been checked once, not generated fresh each time.
+- **The game must not slow down logging.** Experienced users leave trackers when logging gets slow, and beginners will be logging between sets too.
+- **Guilt can drive people away.** The avatar's sadness has to stay gentle. If it turns into shaming, beginners will quit instead of returning.
+- **Will beginners pay?** No study found answers this. It is the biggest commercial unknown and should be tested with real beginners.
+- **Game features fade.** Research shows gamification helps at first, but the effect shrinks over months. The avatar and XP need to keep giving users something new.
 
 ## Vision
 
-The app starts as one gym's game map. It could become the standard digital layer for independent gyms: a member app that makes every gym feel like the member's own. Possible later additions include challenges between members, programs tied to each gym's equipment, self-service mapping tools for gyms, and integrations with the gym systems they already run.
+RepRoute starts as a friendlier way to get through a workout and come back for the next one. Later it could add sharing workouts with friends, more rooms and avatar styles, and partnerships where gyms use RepRoute to build a community among their members.

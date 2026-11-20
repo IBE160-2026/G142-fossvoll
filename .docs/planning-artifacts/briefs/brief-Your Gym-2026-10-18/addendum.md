@@ -1,12 +1,25 @@
 ---
-title: "Addendum: Your Gym product brief"
+title: "Addendum: RepRoute product brief (formerly Your Gym)"
 created: 2026-10-18
-updated: 2026-10-18
+updated: 2026-11-20
 ---
 
 # Addendum: Your Gym
 
 Detail that supports the brief but belongs in downstream documents (PRD, architecture, go-to-market).
+
+## Pivot to RepRoute (2026-11-20)
+
+- **Market research behind the pivot:** `.docs/planning-artifacts/research/market-gym-independent-workout-app-willingness-2026-11-19/research.md`. It covers prices, conversion benchmarks, competitors and the evidence on gamification.
+- **Name ideas considered:** RepRoute (chosen as the working name), Liftpath, SetQuest, Finish Set, Gym Run and Repway.
+- **Avatar style (for UX):** cozy, round and lovable. The feeling is inspired by Wii Miis and Club Penguin, but the design must be original.
+- **Avatar mood rule (for the PRD):** the avatar's mood is evaluated per week against the user's own goal. It never changes body shape as a penalty. After a workout it shows extra strength temporarily, then returns to its base shape.
+- **Goal setting (for the PRD):** the AI asks about the user's gym experience, suggests a sustainable weekly goal, and raises it after the user succeeds.
+- **Machines (for the PRD):** there is a standard machine library, and the user picks a machine per exercise. The optional equipment checklist limits what the AI suggests to the machines the user has.
+- **Premium:** one package containing AI-built workouts and cosmetics (avatar clothes, room designs). It is a mock-up in the school prototype.
+- **Gamified competitors to know (from the research):** HeroFit (its avatar shrinks when goals are missed), Avatone, GymLevels, Quest2Fitness, Liftoff (free ranks and leaderboards), Fitness RPG (step-based map) and Ring Fit Adventure (console, about 10M sold).
+
+The sections below come from the original white-label concept (2026-10-18). They are kept as background: the B2B parts no longer apply to version 1.
 
 ## Competitive landscape (desk research, 2026-10-18)
 
